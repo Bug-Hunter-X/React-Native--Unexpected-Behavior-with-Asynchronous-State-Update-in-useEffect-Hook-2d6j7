@@ -1,0 +1,3 @@
+This repository demonstrates a common React Native bug related to asynchronous state updates within the `useEffect` hook. The bug occurs because the state update uses the previous state value, instead of the current one, when dealing with asynchronous operations or when the state update relies on the previous state. This leads to unexpected behavior and incorrect state updates.
+
+The `bug.js` file contains the buggy code, and `bugSolution.js` demonstrates the correct approach to update the state using functional updates. The bug is thoroughly explained in the detailed bug description and the solution is clearly provided.
